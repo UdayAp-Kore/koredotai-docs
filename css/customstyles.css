@@ -1441,7 +1441,12 @@ body.itAssistDocs{
     background-repeat: no-repeat;
     background-position: right center;
     cursor: pointer;
+    border: 1px solid red;
 }
+.itAssistDocs .container .leftNav details[open] summary{
+    transform: rotate(-90deg);
+}
+
 .itAssistDocs .container .leftNav  details summary .nav{
     padding-left: 15px;
 }
