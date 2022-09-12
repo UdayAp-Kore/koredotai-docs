@@ -1437,13 +1437,16 @@ body.itAssistDocs{
     background-color:#ffffff;
     margin-bottom: 6px;
     padding: 4px 10px;
+    cursor: pointer;
+}
+.itAssistDocs .container .leftNav details summary::after{
+    content: '';
+    display: inline-block;
     background-image: url(../images/expand.png);
     background-repeat: no-repeat;
     background-position: right center;
-    cursor: pointer;
-    border: 1px solid red;
 }
-.itAssistDocs .container .leftNav details[open] summary{
+.itAssistDocs .container .leftNav details[open] summary::after{
     transform: rotate(-90deg);
 }
 
