@@ -1438,6 +1438,7 @@ body.itAssistDocs{
     margin-bottom: 6px;
     padding: 4px 10px;
     cursor: pointer;
+    position: relative;
 }
 .itAssistDocs .container .leftNav details summary::after{
     content: '';
@@ -1445,6 +1446,11 @@ body.itAssistDocs{
     background-image: url(../images/expand.png);
     background-repeat: no-repeat;
     background-position: right center;
+    width: 6px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 12px;
 }
 .itAssistDocs .container .leftNav details[open] summary::after{
     transform: rotate(-90deg);
